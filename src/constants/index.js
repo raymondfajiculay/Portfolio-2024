@@ -180,7 +180,8 @@ const experiences = [
 const projects = [
   {
     name: "Mini Blog Site",
-    description: "It is a proect the I created to Learn Laravel 11",
+    description:
+      "A Laravel 11 project I crafted for learning purposes, encompassing CRUD operations, email verification, and image upload functionalities. Powered by Laravel and MySQL, it's a hands-on journey into web development.",
     tags: [
       {
         name: "laravel",
