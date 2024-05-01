@@ -177,33 +177,6 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
     name: "Promptopia",
@@ -224,7 +197,7 @@ const projects = [
       },
     ],
     image: promptopia,
-    source_code_link: "https://github.com/ckodentz/Promptopia",
+    source_code_link: "https://github.com/raymondfajiculay/Promptopia",
   },
   {
     name: "GPT3",
@@ -245,7 +218,7 @@ const projects = [
       },
     ],
     image: gpt3,
-    source_code_link: "https://github.com/ckodentz/GPT3",
+    source_code_link: "https://github.com/raymondfajiculay/GPT3",
   },
   {
     name: "Moviehub",
@@ -266,7 +239,7 @@ const projects = [
       },
     ],
     image: moviehub,
-    source_code_link: "https://github.com/ckodentz/Moviehub",
+    source_code_link: "https://github.com/raymondfajiculay/Moviehub",
   },
   {
     name: "AI Article Summarizer",
@@ -287,7 +260,7 @@ const projects = [
       },
     ],
     image: summize,
-    source_code_link: "https://github.com/ckodentz/Summize",
+    source_code_link: "https://github.com/raymondfajiculay/Summize",
   },
   {
     name: "Hidden Gems",
@@ -308,7 +281,7 @@ const projects = [
       },
     ],
     image: hiddengems,
-    source_code_link: "https://github.com/ckodentz/Hidden-Gems",
+    source_code_link: "https://github.com/raymondfajiculay/Hidden-Gems",
   },
   {
     name: "Car Dash Camera",
@@ -329,7 +302,7 @@ const projects = [
       },
     ],
     image: cardashcamera,
-    source_code_link: "https://github.com/ckodentz/Car-Dash-Camera",
+    source_code_link: "https://github.com/raymondfajiculay/Car-Dash-Camera",
   },
   {
     name: "Door Ringer",
@@ -350,7 +323,7 @@ const projects = [
       },
     ],
     image: doorringer,
-    source_code_link: "https://github.com/ckodentz/Door-Ringer",
+    source_code_link: "https://github.com/raymondfajiculay/Door-Ringer",
   },
   {
     name: "Big City Sports Bet",
@@ -371,8 +344,8 @@ const projects = [
       },
     ],
     image: bigcity,
-    source_code_link: "https://github.com/ckodentz/Big-City-Sports-Bet",
+    source_code_link: "https://github.com/raymondfajiculay/Big-City-Sports-Bet",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
