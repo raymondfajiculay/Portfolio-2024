@@ -21,13 +21,13 @@ import {
   gpt3,
   moviehub,
   doorringer,
-  bigcity,
   promptopia,
   hiddengems,
   summize,
   village88,
   laravel,
   rootsofhealth,
+  miniblogsite,
 } from "../assets";
 
 export const navLinks = [
@@ -179,6 +179,26 @@ const experiences = [
 
 const projects = [
   {
+    name: "Mini Blog Site",
+    description: "It is a proect the I created to Learn Laravel 11",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "email-verification",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: miniblogsite,
+    source_code_link: "https://github.com/raymondfajiculay/Mini-Blog-Site",
+  },
+  {
     name: "Promptopia",
     description:
       "Promptopia is an open-source AI prompting tool for modern world to discover, create, and share creative prompts",
@@ -324,27 +344,6 @@ const projects = [
     ],
     image: doorringer,
     source_code_link: "https://github.com/raymondfajiculay/Door-Ringer",
-  },
-  {
-    name: "Big City Sports Bet",
-    description:
-      "This project is a responsive front-end implementation of a Client Big City Sports Bets application. It provides a user-friendly interface for placing sports bets and managing user accounts. The front-end is built using HTML, CSS, and JavaScript.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bigcity,
-    source_code_link: "https://github.com/raymondfajiculay/Big-City-Sports-Bet",
   },
 ];
 

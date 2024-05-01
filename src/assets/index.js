@@ -30,10 +30,10 @@ import cardashcamera from "./cardashcamera.png";
 import moviehub from "./moviehub.png";
 import gpt3 from "./gpt3.png";
 import doorringer from "./doorringer.png";
-import bigcity from "./bigcity.png";
 import promptopia from "./promptopia.png";
 import hiddengems from "./hiddengems.png";
 import summize from "./summize.png";
+import miniblogsite from "./miniblogsite.png";
 
 export {
   logo,
@@ -62,11 +62,11 @@ export {
   gpt3,
   moviehub,
   doorringer,
-  bigcity,
   promptopia,
   hiddengems,
   village88,
   summize,
   rootsofhealth,
   laravel,
+  miniblogsite,
 };
