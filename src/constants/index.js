@@ -184,14 +184,14 @@ const projects = [
   {
     name: "FHSIS Management System",
     description:
-      "This project automates the process of fetching data from a Clinic Database via an API and transferring it into a Google Spreadsheet using Apps Script. The spreadsheet is designed to help clinics track and analyze their key performance indicators (KPIs) efficiently.",
+      "A Laravel-based system that streamlines the submission of health data from municipalities by replacing email-based reporting. It ensures timely uploads, tracks monthly submissions, and highlights which areas have or haven't submitted their data—solving the issue of missed reports in cluttered inboxes.",
     tags: [
       {
         name: "laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "postman",
+        name: "authentication",
         color: "pink-text-gradient",
       },
       {
@@ -221,7 +221,7 @@ const projects = [
       },
     ],
     image: postman,
-    source_code_link: "https://clinicdatabase.ugatngkalusugan.org",
+    source_code_link: "https://github.com/raymondfajiculay/clinic-database-api",
   },
   {
     name: "Quiz App (Pre & Post Test)",
