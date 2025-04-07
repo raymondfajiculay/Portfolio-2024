@@ -28,6 +28,9 @@ import {
   laravel,
   rootsofhealth,
   miniblogsite,
+  quizapp,
+  postman,
+  fhsis
 } from "../assets";
 
 export const navLinks = [
@@ -125,7 +128,7 @@ const experiences = [
     company_name: "Roots of Health",
     icon: rootsofhealth,
     iconBg: "#fff",
-    date: "Sep 2023 - May 2024",
+    date: "Sep 2023 - Present",
     points: [
       "Technical Support: Provide hands-on technical support to staff members, assisting with hardware, software, network, and other IT-related issues.",
       "IT Infrastructure Management: Oversee and maintain the organization's IT infrastructure, including laptops, printers, network devices, and other technology equipment.",
@@ -178,6 +181,69 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "FHSIS Management System",
+    description:
+      "This project automates the process of fetching data from a Clinic Database via an API and transferring it into a Google Spreadsheet using Apps Script. The spreadsheet is designed to help clinics track and analyze their key performance indicators (KPIs) efficiently.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postman",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+    ],
+    image: fhsis,
+    source_code_link: "https://fhsis.ugatngkalusugan.org",
+  },
+  {
+    name: "Clinic Data to Spreadsheet Automation",
+    description:
+      "This project automates the process of fetching data from a Clinic Database via an API and transferring it into a Google Spreadsheet using Apps Script. The spreadsheet is designed to help clinics track and analyze their key performance indicators (KPIs) efficiently.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postman",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+    ],
+    image: postman,
+    source_code_link: "https://clinicdatabase.ugatngkalusugan.org",
+  },
+  {
+    name: "Quiz App (Pre & Post Test)",
+    description:
+      "A full-stack quiz application built with Laravel 11 and React, designed for pre- and post-assessment tests. It includes user authentication, dynamic quizzes, result tracking, and interactive charts using Chart.js. Ideal for monitoring learning progress.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+    ],
+    image: quizapp,
+    source_code_link: "https://quizzes.ugatngkalusugan.org",
+  },
   {
     name: "Mini Blog Site",
     description:

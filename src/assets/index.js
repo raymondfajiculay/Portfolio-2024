@@ -34,6 +34,9 @@ import promptopia from "./promptopia.png";
 import hiddengems from "./hiddengems.png";
 import summize from "./summize.png";
 import miniblogsite from "./miniblogsite.png";
+import quizapp from "./quizapp.png"
+import postman from "./postman.png"
+import fhsis from "./fhsis.png"
 
 export {
   logo,
@@ -69,4 +72,7 @@ export {
   rootsofhealth,
   laravel,
   miniblogsite,
+  quizapp,
+  postman,
+  fhsis
 };
